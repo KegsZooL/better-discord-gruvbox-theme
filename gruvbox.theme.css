@@ -1,0 +1,56 @@
+/**
+ * @name gruvbox
+ * @author DevilBro
+ * @version 1.0.5
+ * @description Allows you to use a background image without greatly altering the basic look of Discord.
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
+ * @authorId 278543574059057154
+ * @BDEditor BasicBackground
+*/
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
+
+* {
+    font-family: "JetBrains Mono", monospace !important;
+    font-weight: 100;
+}
+:root {
+  --background: url('https://i.imgur.com/4xgtlsi.png');
+  --backgroundsize: cover;
+  --backgroundposition: center;
+  --backgroundblur: 0px;
+  --popout: url('https://i.imgur.com/m8gb4Xx.jpeg');
+  --popoutsize: 200%;
+  --backgroundposition: center;
+  --popoutblur: 0px;
+  --transparencycolor: 39,38,38;
+  --accentcolor: 107, 144, 125;
+  --transparencyalpha: 0;
+  --messagetransparency: 0.48;
+  --guildchanneltransparency: 0.22;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0;
+  --textbrightest: 201,193,167;
+  --textbrighter: 69,133,136;
+  --textbright: 201,193,167;
+  --textdark: 201,193,167;
+  --textdarker: 201,193,167;
+  --textdarkest: 201,193,167;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
+
+  --modaltransparency: 0.7;
+  --modalbackground: rgba(var(--transparencycolor), var(--modaltransparency));
+
+}
+
+.modal {
+  background: var(--modalbackground);
+}
