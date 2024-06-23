@@ -1,7 +1,6 @@
-# My workstation configs
+# 👀BetterDiscord gruvbox theme
 
-- The colorscheme is a combmination of both gruvbox and gruvbox-material in my configs
-#BetterDiscord gruvbox theme
+- This theme is a redrawing of the "Basic Background" theme to match the Gruvbox style.
 
 ## Gallery
 ![image_1](https://github.com/KegsZooL/better-discord-theme/blob/main/screenshots/image_1.jpg)
