@@ -1,9 +1,10 @@
 /**
  * @name gruvbox
- * @author DevilBro
- * @version 1.0.5
- * @description Allows you to use a background image without greatly altering the basic look of Discord.
+ * @author DevilBro KegsZooL
+ * @version 0.0.1
+ * @description This theme is a redrawing of the "Basic Background" theme to match the Gruvbox style.
  * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @source https://github.com/KegsZooL/better-discord-gruvbox-theme
  * @invite Jx3TjNS
  * @donate https://www.paypal.me/MircoWittrien
  * @patreon https://www.patreon.com/MircoWittrien
@@ -28,18 +29,18 @@
   --popoutsize: 200%;
   --backgroundposition: center;
   --popoutblur: 0px;
-  --transparencycolor: 39,38,38;
-  --accentcolor: 107, 144, 125;
+  --transparencycolor: 40,40,40;
+  --accentcolor: 46, 160, 137;
   --transparencyalpha: 0;
   --messagetransparency: 0.48;
   --guildchanneltransparency: 0.22;
   --chatinputtransparency: 0;
   --memberlisttransparency: 0;
-  --textbrightest: 201,193,167;
+  --textbrightest: 236,227,188;
   --textbrighter: 69,133,136;
   --textbright: 201,193,167;
   --textdark: 201,193,167;
-  --textdarker: 201,193,167;
+  --textdarker: 219,178,83;
   --textdarkest: 201,193,167;
   --settingsicons: 1;
   --backdropsize: var(--background-size);
@@ -48,7 +49,6 @@
 
   --modaltransparency: 0.7;
   --modalbackground: rgba(var(--transparencycolor), var(--modaltransparency));
-
 }
 
 .modal {
