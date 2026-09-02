@@ -1,4 +1,4 @@
-# 👀 BetterDiscord gruvbox theme
+# 👀BetterDiscord gruvbox theme
 
 - This theme is a redrawing of the "Basic Background" theme to match the Gruvbox style.
 
